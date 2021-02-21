@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.heading {
+  background-color: rgb(255, 167, 95);
+}
+
+h1 {
+  padding: 25px;
+  font-size: 50px;
+  font-style: italic;
+  margin-left: 30px;
+  color: white;
+}
+
+.desciption {
+  display: inline;
+}
+
+.text {
+  width: 65%;
+  padding: 40px;
+}
+
+.image {
+  width: 30%;
+  float: right;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+}
+
+.about {
+  margin-left: 20px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.button {
+  width: 50%;
+  margin-left: 300px;
+}
+
+.btn {
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.login,
+.signup {
+  width: 300px;
+  height: 500px;
+  /* border: 2px solid black; */
+  margin: auto;
+  margin-top: 60px;
+}
+
+.loginasbuyer {
+  font-size: 25px;
+  /* float: right; */
+  margin-left: 30px;
+  text-decoration: underline;
+}
+
+.field {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+input {
+  height: 20px;
+  width: 200px;
+  text-align: right;
+}
+
+.input {
+  text-align: center;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  color: "white";
+  cursor: pointer;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.error {
+  text-align: center;
+  margin-top: 5px;
+  color: red;
+}
+
+.profileimg {
+  float: right;
+  padding-right: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 200px;
+}
+
+.delete {
+  color: white;
+  background-color: black;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.seller-username {
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic;
+  padding: 15px;
+  text-decoration: underline;
+}
+
+.orange-input {
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.orange-table {
+  padding: 20px;
+}
+
+.logout {
+  float: right;
+  margin-right: 20px;
+}
+
+.seller-listitem {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  color: crimson;
+}
+
+.seller-listitem:hover {
+  font-size: 25px;
+}
